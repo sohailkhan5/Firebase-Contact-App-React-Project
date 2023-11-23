@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.FirebaseContactApp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(29, 29, 39);
+  position: relative;
+ 
+}
+.Firebasebox{
+  border: 2px solid black;
+  margin-top: 10px;
+  background-color: rgb(21, 19, 19);
+  height: 100vh;
+  border-radius: 30px;
+  
+}
+.FirebaseTittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: white;
+  gap: 10px;
+}
+.FirebaseTittle h1{
+  font-size: 40px;
+}
+.SearchBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  gap: 10px;
+}
+.SearchBox input{
+  width: 400px;
+  font-size: 50px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px; 
+  background-color: rgb(21, 19, 19); 
+}
+.SearchBox button{
+  border-radius: 400px;
+  padding: 7px 10px;
+}
+.contacts{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 30px;
+  gap: 20px;
+  background-color: rgb(123, 81, 13);
+}
+.contacts button{
+  background: none;
+  border: none;
+}
+.Firebasebox .sohail{
+  height: 390px;
+  overflow: auto;
+  /* overflow: hidden; */
+}
+.contactInfo h3{
+  font-size: x-large;
+}
+.contactInfo p{
+  font-size: larger;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cont{
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.MuiInputBase{
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact_form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
